@@ -31,3 +31,5 @@ python-dotenv==1.1.1
 tiktoken==0.11.0
 
 torchgit 
+
+tf-keras
