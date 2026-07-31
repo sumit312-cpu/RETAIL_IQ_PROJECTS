@@ -1,0 +1,73 @@
+# ===========================
+# Streamlit
+# ===========================
+streamlit>=1.47.0
+
+# ===========================
+# Data Processing
+# ===========================
+numpy>=2.1.0
+pandas>=2.2.0
+
+# ===========================
+# Machine Learning
+# ===========================
+scikit-learn>=1.7.0
+xgboost>=3.0.0
+joblib>=1.5.0
+
+# ===========================
+# Deep Learning
+# ===========================
+tensorflow>=2.19.0
+
+# ===========================
+# Image Processing
+# ===========================
+Pillow>=11.0.0
+
+# ===========================
+# LangChain
+# ===========================
+langchain>=0.3.27
+langchain-community>=0.3.27
+langchain-core>=0.3.70
+langchain-google-genai>=2.1.9
+langchain-huggingface>=0.3.1
+
+# ===========================
+# Vector Database
+# ===========================
+faiss-cpu>=1.12.0
+
+# ===========================
+# Embedding Models
+# ===========================
+sentence-transformers>=5.1.0
+transformers>=4.55.0
+
+# ===========================
+# Google Gemini
+# ===========================
+google-generativeai>=0.8.5
+
+# ===========================
+# Document Loaders
+# ===========================
+pypdf>=6.0.0
+markdown>=3.8.2
+
+# ===========================
+# Environment Variables
+# ===========================
+python-dotenv>=1.1.1
+
+# ===========================
+# Tokenizer
+# ===========================
+tiktoken>=0.11.0
+
+# ===========================
+# Torch (Required by Sentence Transformers)
+# ===========================
+torch>=2.8.0
