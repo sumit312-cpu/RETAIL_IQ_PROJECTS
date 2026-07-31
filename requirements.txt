@@ -1,73 +1,73 @@
 # ===========================
 # Streamlit
 # ===========================
-streamlit>=1.47.0
+streamlit==1.47.1
 
 # ===========================
 # Data Processing
 # ===========================
-numpy>=2.1.0
-pandas>=2.2.0
+numpy==1.26.4
+pandas==2.2.3
 
 # ===========================
 # Machine Learning
 # ===========================
-scikit-learn>=1.7.0
-xgboost>=3.0.0
-joblib>=1.5.0
+scikit-learn==1.6.1
+xgboost==2.1.4
+joblib==1.5.1
 
 # ===========================
 # Deep Learning
 # ===========================
-tensorflow>=2.19.0
+tensorflow==2.19.0
 
 # ===========================
 # Image Processing
 # ===========================
-Pillow>=11.0.0
+Pillow==11.3.0
 
 # ===========================
 # LangChain
 # ===========================
-langchain>=0.3.27
-langchain-community>=0.3.27
-langchain-core>=0.3.70
-langchain-google-genai>=2.1.9
-langchain-huggingface>=0.3.1
+langchain==0.3.27
+langchain-community==0.3.27
+langchain-core==0.3.70
+langchain-google-genai==2.1.9
+langchain-huggingface==0.3.1
 
 # ===========================
 # Vector Database
 # ===========================
-faiss-cpu>=1.12.0
+faiss-cpu==1.11.0
 
 # ===========================
 # Embedding Models
 # ===========================
-sentence-transformers>=5.1.0
-transformers>=4.55.0
+sentence-transformers==5.0.0
+transformers==4.53.3
 
 # ===========================
 # Google Gemini
 # ===========================
-google-generativeai>=0.8.5
+google-generativeai==0.8.5
 
 # ===========================
-# Document Loaders
+# Document Processing
 # ===========================
-pypdf>=6.0.0
-markdown>=3.8.2
+pypdf==5.9.0
+markdown==3.8.2
 
 # ===========================
 # Environment Variables
 # ===========================
-python-dotenv>=1.1.1
+python-dotenv==1.1.1
 
 # ===========================
 # Tokenizer
 # ===========================
-tiktoken>=0.11.0
+tiktoken==0.11.0
 
 # ===========================
-# Torch (Required by Sentence Transformers)
+# PyTorch
 # ===========================
-torch>=2.8.0
+torch==2.7.1
