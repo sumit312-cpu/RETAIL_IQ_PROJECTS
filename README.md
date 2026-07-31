@@ -1,23 +1,64 @@
-# 🛍️ RetailIQ AI
-
 <p align="center">
-  <b>AI-Powered Smart Retail Analytics Platform</b>
+  <img src="assets/banner.png" alt="RetailIQ AI Banner" width="100%">
 </p>
 
-RetailIQ AI is a comprehensive retail analytics platform that combines **Machine Learning**, **Deep Learning**, **Recommendation Systems**, **Sales Forecasting**, and **Generative AI** to help retailers gain actionable insights and improve business decision-making.
+<h1 align="center">🛍️ RetailIQ AI</h1>
 
-The application is developed using **Python** and **Streamlit**, providing an interactive dashboard for forecasting sales, classifying products, recommending products, and answering retail-related queries through an AI-powered assistant.
+<p align="center">
+<b>AI-Powered Smart Retail Analytics Platform</b><br>
+Sales Forecasting • Product Recommendation • Image Classification • AI Assistant
+</p>
+
+<p align="center">
+
+[![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red.svg)](https://streamlit.io/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.19-orange.svg)](https://tensorflow.org/)
+[![XGBoost](https://img.shields.io/badge/XGBoost-ML-green.svg)](https://xgboost.ai/)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+</p>
+
+---
+
+# 🌐 Live Demo
+
+🚀 **RetailIQ AI**
+
+👉 https://sumit312-cpu-retail-iq-projects-appapp-mvvps9.streamlit.app/
+
+---
+
+# 📦 GitHub Repository
+
+👉 https://github.com/sumit312-cpu/RETAIL_IQ_PROJECTS
+
+---
+
+# 📖 Project Overview
+
+RetailIQ AI is an end-to-end AI-powered retail analytics platform that integrates **Machine Learning**, **Deep Learning**, **Recommendation Systems**, and **Generative AI** into a single interactive application.
+
+The platform enables retailers and analysts to:
+
+- 📈 Forecast future sales
+- 🎯 Recommend products
+- 🖼️ Classify product images
+- 🤖 Interact with an AI Retail Assistant
+- 📚 Retrieve project knowledge using RAG
+
+The application is built using **Python** and **Streamlit** with an interactive and user-friendly interface.
 
 ---
 
 # 🚀 Features
 
 - 📈 Sales Forecasting using XGBoost
+- 🎯 Product Recommendation using ANN & KNN
 - 🖼️ Product Image Classification using CNN & MobileNetV2
-- 🎯 Product Recommendation using KNN & ANN
-- 🤖 AI Retail Assistant powered by Google Gemini
+- 🤖 AI Retail Assistant using Google Gemini
 - 📚 Retrieval-Augmented Generation (RAG)
-- 🔍 Semantic Search using FAISS Vector Store
+- 🔍 Semantic Search using FAISS
 - 📊 Interactive Streamlit Dashboard
 
 ---
@@ -25,37 +66,49 @@ The application is developed using **Python** and **Streamlit**, providing an in
 # 🛠️ Tech Stack
 
 ### Programming Language
+
 - Python
 
-### Framework
+### Frontend
+
 - Streamlit
 
 ### Machine Learning
+
 - Scikit-learn
 - XGBoost
 
 ### Deep Learning
+
 - TensorFlow
 - Keras
-- Convolutional Neural Networks (CNN)
+- CNN
 - MobileNetV2
-- Artificial Neural Networks (ANN)
+- Artificial Neural Network (ANN)
 
 ### AI & LLM
-- Google Gemini API
+
+- Google Gemini
 - LangChain
 - Retrieval-Augmented Generation (RAG)
-- FAISS Vector Store
+
+### Vector Database
+
+- FAISS
+- Sentence Transformers
 
 ### Data Processing
+
 - Pandas
 - NumPy
 
 ### Visualization
+
 - Plotly
 - Matplotlib
 
 ### Development Tools
+
 - Git
 - GitHub
 - VS Code
@@ -74,45 +127,22 @@ RETAIL_IQ_PROJECTS/
 │   └── test_ann.py
 │
 ├── Docs/
-│   ├── architecture.md
-│   ├── datasets.md
-│   ├── forecasting.md
-│   ├── recommendation.md
-│   ├── faq.md
-│   └── model_selection.md
 │
 ├── models/
-│   ├── ann_recommender.h5
-│   ├── custom_cnn.keras
-│   ├── mobilenetv2_classifier.keras
-│   ├── xgboost_sales_forecaster.pkl
-│   ├── product_lookup.csv
-│   └── ...
 │
 ├── screenshots/
-│   ├── home.png
-│   ├── forecasting.png
-│   ├── recommendation.png
-│   ├── classification.png
-│   └── chatbot.png
 │
 ├── utils/
-│   ├── assistant_ui.py
-│   ├── build_vectorstore.py
-│   ├── chat.py
-│   ├── classification_ui.py
-│   ├── forecasting_ui.py
-│   ├── gemini.py
-│   ├── rag.py
-│   └── recommendation_ui.py
 │
 ├── VectorStore/
-│   ├── documents.pkl
-│   └── index.faiss
+│
+├── assets/
+│   └── banner.png
 │
 ├── requirements.txt
-├── .gitignore
+├── runtime.txt
 ├── README.md
+├── .gitignore
 └── .env
 ```
 
@@ -172,7 +202,7 @@ pip install -r requirements.txt
 
 ### Configure Environment Variables
 
-Create a `.env` file in the project root:
+Create a `.env` file.
 
 ```env
 GOOGLE_API_KEY=YOUR_GOOGLE_API_KEY
@@ -186,17 +216,34 @@ streamlit run App/app.py
 
 ---
 
-# 🤖 AI Models
+# 🚀 Deployment
+
+The application is successfully deployed on **Streamlit Community Cloud**.
+
+### Live Demo
+
+👉 https://sumit312-cpu-retail-iq-projects-appapp-mvvps9.streamlit.app/
+
+### Python Runtime
+
+```
+Python 3.11
+```
+
+---
+
+# 🤖 AI Models Used
 
 | Model | Purpose |
 |--------|----------|
 | XGBoost | Sales Forecasting |
+| ANN | Product Recommendation |
+| KNN | Recommendation Engine |
 | CNN | Product Image Classification |
 | MobileNetV2 | Transfer Learning |
-| KNN | Product Recommendation |
-| ANN | Personalized Recommendation |
-| Google Gemini | AI Retail Assistant |
+| Google Gemini | AI Assistant |
 | FAISS | Semantic Search |
+| Sentence Transformers | Text Embeddings |
 | LangChain | RAG Pipeline |
 
 ---
@@ -204,36 +251,57 @@ streamlit run App/app.py
 # 📌 Core Modules
 
 - 📈 Sales Forecasting
-- 🖼️ Product Image Classification
 - 🎯 Product Recommendation
+- 🖼️ Product Image Classification
 - 🤖 AI Retail Assistant
 - 📚 RAG Knowledge Retrieval
-- 🔍 Semantic Document Search
+- 🔍 Semantic Search
 
 ---
 
 # 🚀 Future Enhancements
 
 - User Authentication
+- Customer Analytics
 - Inventory Management
 - Real-time Sales Dashboard
-- PDF & Excel Report Generation
-- Cloud Deployment
-- Customer Analytics
+- PDF Report Generation
+- Cloud Database Integration
 - Multi-language Support
 
 ---
 
 # 👨‍💻 Author
 
-**Sumit Tiwari**
+## Sumit Tiwari
 
-**Aspiring Data Scientist | Machine Learning Engineer | Generative AI Enthusiast**
+**Data Scientist | Machine Learning Engineer | Generative AI Enthusiast**
 
-GitHub: https://github.com/sumit312-cpu
+### 🌐 GitHub
+
+https://github.com/sumit312-cpu
+
+### 🚀 Live Demo
+
+https://sumit312-cpu-retail-iq-projects-appapp-mvvps9.streamlit.app/
 
 ---
 
 # ⭐ Support
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+If you found this project useful, please consider giving it a ⭐ on GitHub.
+
+It motivates future improvements and helps others discover the project.
+
+---
+
+# 🙏 Acknowledgements
+
+- Streamlit
+- TensorFlow
+- Scikit-learn
+- XGBoost
+- LangChain
+- Google Gemini
+- FAISS
+- Hugging Face
