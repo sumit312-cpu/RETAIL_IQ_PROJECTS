@@ -1,74 +1,33 @@
-# ===========================
-# Streamlit
-# ===========================
 streamlit==1.47.1
 
-# ===========================
-# Data Processing
-# ===========================
 numpy==1.26.4
 pandas==2.2.3
 
-# ===========================
-# Machine Learning
-# ===========================
 scikit-learn==1.6.1
 xgboost==2.1.4
 joblib==1.5.1
 
-# ===========================
-# Deep Learning
-# ===========================
 tensorflow==2.19.0
 
-# ===========================
-# Image Processing
-# ===========================
 Pillow==11.3.0
 
-# ===========================
-# LangChain
-# ===========================
 langchain==0.3.27
 langchain-community==0.3.27
 langchain-google-genai==2.1.9
-langchain-huggingface==0.3.1
+langchain-huggingface
 
+faiss-cpu
 
-
-# ===========================
-# Vector Database
-# ===========================
-faiss-cpu==1.11.0
-
-# ===========================
-# Embedding Models
-# ===========================
 sentence-transformers==5.0.0
 transformers==4.53.3
 
-# ===========================
-# Google Gemini
-# ===========================
 google-genai==1.31.0
 
-# ===========================
-# Document Processing
-# ===========================
 pypdf==5.9.0
 markdown==3.8.2
 
-# ===========================
-# Environment Variables
-# ===========================
 python-dotenv==1.1.1
 
-# ===========================
-# Tokenizer
-# ===========================
 tiktoken==0.11.0
 
-# ===========================
-# PyTorch
-# ===========================
-torch==2.7.1
+torchgit 
