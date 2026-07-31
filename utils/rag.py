@@ -1,4 +1,8 @@
 import os
+
+os.environ["USE_TF"] = "0"
+os.environ["USE_TORCH"] = "1"
+
 import pickle
 import faiss
 
